@@ -1544,7 +1544,7 @@ p {
   background-color: #fff;
 }
 
-//punya galeri
+
 
 .galeri {
   background-image: linear-gradient(-90deg, red, black);
@@ -1567,7 +1567,7 @@ h1 {
 }
 
 .photo img {
-  height: 310px;
+  height: 400px;
   width: 100%;
   object-fit: cover;
   border-radius: 0.75rem;
@@ -1600,7 +1600,7 @@ h1 {
     gap: 1rem;
   }
 }
-//logo
+
 #logo {
   justify-content: center;
   width: 180px;
@@ -1608,7 +1608,7 @@ h1 {
   margin: auto;
 }
 .image-box {
-  width: 60px;
+  width: 40px;
   height: 6vh;
   margin: 6px;
 }
@@ -1633,5 +1633,5 @@ h1 {
   background-image: linear-gradient(-90deg, red, black);
 }
 #yt {
-  height: 60px;
+  height: 35px;
 }
