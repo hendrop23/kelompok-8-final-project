@@ -1544,8 +1544,6 @@ p {
   background-color: #fff;
 }
 
-
-
 .galeri {
   background-image: linear-gradient(-90deg, red, black);
   padding: 1rem;
@@ -1562,21 +1560,24 @@ h1 {
   font-size: 1.5rem;
 }
 
-.container1 {
-  width: 100%;
-}
-
-.photo img {
-  height: 400px;
+.container1 .photo img {
+  height: 100%;
   width: 100%;
   object-fit: cover;
   border-radius: 0.75rem;
 }
 
 .container1:hover {
-  transform: scale(1.1);
+  transform: scale(1.12);
 }
-
+.container2:hover {
+  transform: scale(1.12);
+}
+@media (max-width: 480px) {
+  .container2 foto {
+    justify-content: center;
+  }
+}
 @media (min-width: 768px) {
   .wrapper {
     display: grid;
@@ -1634,4 +1635,10 @@ h1 {
 }
 #yt {
   height: 35px;
+}
+@media (max-width: 580px) {
+  .about-icon img {
+    justify-content: center;
+    margin: 90px;
+  }
 }
